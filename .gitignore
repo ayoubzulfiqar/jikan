@@ -1,9 +1,23 @@
+# VS Code editor settings
+.vscode/
+
+# Dependency directories
 /vendor/
-/.idea/
-/composer.lock
-/test.php
-/jikan-fixtures
-/.php-cs-fixer.cache
+
+# IDE-specific files
+.idea/
+
+# Composer files
 composer.phar
+composer.lock
+
+# Test and temporary files
+/test.php
+/jikan-fixtures/
+
+# Cache files
+.php-cs-fixer.cache
 .phpunit.result.cache
-/.phpdoc
+
+# Documentation output
+.phpdoc/
