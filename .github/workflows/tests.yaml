@@ -64,4 +64,3 @@ jobs:
         env:
           CI_ENV: true
         run: ./vendor/bin/phpunit
-
